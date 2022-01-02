@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./esempio-dtd.dtd">
+<!DOCTYPE TEI [ 
+    <!ELEMENT TEI (header,facsimile,text)
+] >
+
+<TEI> 
+    <header></header>
+    <facsimile></facsimile>
+    <text></text>
+</TEI>
