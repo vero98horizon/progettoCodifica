@@ -1,8 +1,8 @@
   <?xml version="1.0" encoding="UTF-8"?>
-  <xsl:stylesheet version="1.0" 
-  xmlns="http://www.w3.org/1999/xhtml" 
-  xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:stylesheet version="1.0" 
+    xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:output method="html" omit-xml-declaration="yes"/>
         <xsl:template match="/">
@@ -154,9 +154,9 @@
                             <h3> Elementi editoriali: </h3><br/> 
                             <xsl:apply-templates select="//tei:editionStmt" />
                         </div>
-                    </div>
-                </body>
-            </html>
+                </div>
+              </body>
+          </html>
         </xsl:template>
     
     <xsl:template match="tei:surface">
@@ -488,15 +488,15 @@
     </xsl:element>
   </xsl:template>
 
-  <xsl:template match="tei:editioStmt">
+  <xsl:template match="tei:editionStmt">
     <xsl:element name="p">
-     <xsl:value-of select="//tei:edition">
+     <xsl:value-of select="//tei:edition" />
     </xsl:element>
     <xsl:element name="p">
-     <xsl:value-of select="//tei:respStmt">
+     <xsl:value-of select="//tei:respStmt" />
     </xsl:element>
     <xsl:element name="p">
-     <xsl:value-of select="//tei:respStmt[@n='1']">
+     <xsl:value-of select="//tei:respStmt[@n='1']" />
     </xsl:element>
   </xsl:template>
 
