@@ -1,0 +1,818 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link href="stile.css" rel="stylesheet" type="text/css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script><script type="text/javascript" src="impo.js"></script><title>Trois premières conférences à l'Université | Le prime tre conferenze all'Università</title>
+   </head>
+   <body>
+      <nav>
+         <li class="text">Descrizione manoscritto</li>
+      </nav>
+      <div class="infTitle">
+         <div class="sin">
+            <p>Titolo dell'opera in francese: <br><span id="test">Trois premières conférences à l'Université</span></p>
+            <p>Traduzione dell'opera  in italiano: <br><span id="test">Le prime tre conferenze all'Università</span></p>
+         </div>
+         <div class="dest">
+            <p>Autore dell'opera: <br><span id="test"><a href="#life">Ferdinand De Saussure</a></span></p>
+            <p>Traduttore del manoscritto: <br><span id="test">Emanuele Fadda</span></p>
+         </div>
+      </div>
+      <div class="contMan">
+         <div class="sini">
+            <h2> Contenuti del manoscritto  </h2>
+            <h3>Dove troviamo il manoscritto</h3>
+            <p> Disponibile presso la Biblioteca di Ginevra</p>
+            <p>BGE Ms. fr. 3951/1.1-3</p>
+            <p>Bibliotèque de Genève</p>
+            <p>Ginevra Svizzera </p><br><h3>Contenuto del manoscritto</h3>
+            <p> Titolo: <br>Trois premières conférences à l'Université</p>
+            <p> Lingua del manoscritto:<br> Francese </p>
+            <p> Autore:<br>
+               Ferdinand
+               De Saussure 
+               </p>
+            <p>Ginevra</p>
+            <p>Questo manoscritto contiene tre prolusioni e una didascalia per grammatica
+               comparata</p><br></div>
+         <div class="destr">
+            <h2> Descrizione fisica del manoscritto </h2>
+            <h3>Descrizione fisica del manoscritto</h3>
+            <p> Layout documento: <br>
+               Il manoscritto comprende righe di lunghezza variabile dai 20 alle 30 righe
+               All'interno del manoscritto è possibile notare come vi siano da parte dell'autore
+               
+               stesso alcune modifiche come: cancellature, aggiunte di porzioni di testo o di singole
+               
+               parole.
+               </p>
+            <p> Condizione manoscritto: <br> 
+               L’intero manoscritto presenta lo stesso tipo di scrittura, con 
+               diversi segni di correzione e cancellature. Sono presenti piccole macchie. 
+               Probabilmente sono state aggiunte delle parole sempre dallo stesso
+               autore. Alcuni fogli sono stati strappati. 
+               </p>
+            <p>Il manoscritto viene scritto da un singolo scrittore 
+               che è l’autore stesso del manoscritto.</p>
+            <p> Supporto utilizzato:<br>Fogli di  carta  </p>
+            <p> Descrizione generale: <br>Il manoscritto è diviso in tre parti. In tutto troviamo:
+               67 pagine più 1 foglio. 
+               La prima formata da 30 pagine ;
+               La seconda formata da 15 pagine;
+               la terza è formata da 22 pagine. 
+               </p><br><h3>Storico manoscritto</h3>
+            <p> Origine documento: <br>
+               Il manoscritto viene sviluppato a  Ginevra,  Francia 
+               , attraverso degli appunti scritti a  novembre 1891 .
+               </p>
+            <p>Provenienza documento: <br>
+               Manoscritto sviluppato da  Ferdinand De Saussure . 
+               In occasione dei corsi d'apertura, scritto per le tre conferenze, durante le lezioni
+               del 
+               6 novembre 1891 - 10 novembre 1891
+               presso l'Università di Ginevra
+               </p>
+            <p> Acquisizione manoscritto:<br>Il manoscritto viene rilasciato nelle mani dell'
+               archivio della Biblioteca di Ginevra
+               </p>
+         </div>
+      </div>
+      <hr class="stile">
+      <h1 class="life">La vita e la morte dell'autore:</h1><br><div class="cont">
+         <div class="sini"><img src="src/De_Saussure.jpeg"></div>
+         <div class="destr">
+            
+            Ferdinand
+            De Saussure
+            M
+            26 novembre 1857
+            
+            <div class="key"><span class="placeName" id="#GN">
+                  Ginevra
+                  Svizzera
+                  </span><div class="tooltip placeDesc" id="#GN"><span class="settlement">
+                     comune
+                     <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+            </div>
+            
+            22 febbraio 1913
+            
+            <div class="key"><span class="placeName" id="#VuffC">
+                  Vufflens-le-Château
+                  Vaud
+                  Svizzera
+                  </span><div class="tooltip placeDesc" id="#VuffC"><span class="settlement">
+                     comune
+                     <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+            </div>
+            </div>
+      </div>
+      <div id="keywords">
+         <div class="ragrBtns"><button class="Off" id="parKey">Parole chiave</button><button class="Off" id="luoghi">Luoghi</button></div>
+      </div>
+      <hr class="stile">
+      <div id="edits">
+         <h4>Interventi editoriali</h4>
+         <div class="ragrBtns"><button class="Off" id="Gap"><i>Gap</i></button><button class="Off" id="agg">Aggiunte</button><button class="Off" id="canc">Parole cancellate</button></div>
+      </div>
+      <div id="translation">
+         <h4>Traduzione</h4>
+         <div class="keyBtns"><button class="Off" id="trslBtn">Mostra</button><br><div id="trslWrapper">
+               <h5>Paragrafo</h5>
+               <div class="slider"><label for="trSlider">1</label><input name="trSlider" type="range" min="1" max="7" value="1"><label for="trSlider">7</label></div>
+               <div id="trslTextContainer">
+                  <p class="trslText" id="tr_Par_006_pr1">
+                     Già da oggi, un linguista che venisse in Francia con lo scopo di 
+                     notare metodicamente attraverso la scrittura il francese parlato,
+                     il francese reale e autentico, allo stesso modo in cui si raccoglie
+                     metodicamente la lingua di qualche popolo malese, o africano, o come 
+                     si raccolgono i dialetti (patois) francesi - questo linguista 
+                     scriverebbe senza esitare che nell'anno 1891 si ha k-a-t kat, come 
+                     forma esatta o forma principale per il quarto numerale, l-e-t, let 
+                     per la parola significante missiva o segno dell'alfabeto.
+                     </p>
+                  <p class="trslText" id="tr_Par_006_pr2">
+                     Infatti a Ginevra come a Bordeaux o a Parigi o a Lille, per la strada come 
+                     nei salotti, nessuno dice altro che kat places, kat jours o la let que j'ai 
+                     reçue, ecc.(In certe condizioni vi è una seconda forma letr, nella fattispecie,
+                     davanti a vocale: letr ouverte; ma anche davanti a vocale si inizia a dire let 
+                     ouverte, mettre cette let à la poste, molto probabilmente letr sarà così una 
+                     forma totalmente sconosciuta tra cinquanta e settantacinque anni).
+                     </p>
+                  <p class="trslText" id="tr_Par_006_pr3">
+                     Ecco un esempio tra tanti che prova che dei fenomeni di trasformazioni 
+                     assimilabili a quelli che ritroviamo in tutti gli idiomi lasciati a se stessi
+                     non hanno cessato, in realtà, di prodursi, anche in una lingua, in cui tutte le
+                     condizioni sono anormali per l'apparente onnipotenza della scrittura.
+                     </p>
+                  <p class="trslText" id="tr_Par_006_pr4">
+                     Ma è tempo di chiederci, in modo diverso che prendendo esempi isolati, in che 
+                     cosa consistano i cambiamenti che si producono con una necessità così costante
+                     in tutte le lingue, di quale natura siano queste modificazioni e rimaneggiamenti
+                     perpetui, a quali cause essi si riconducano, e se hanno lo stesso carattere in 
+                     tutte le lingue.
+                     </p>
+                  <p class="trslText" id="tr_Par_006_pr5">
+                     Lo studio del linguaggio crede di poter già da oggi affermare che in effetti l'
+                     essenza di tali fenomeni, in primo luogo, si ritrova ovunque uguale e, in secondo
+                     luogo, essa è sempre stata la stessa, di modo che è un'idea assai falsa credere che
+                     
+                     il problema dell'origine del linguaggio sia un altro problema rispetto a quello delle
+                     sue trasformazioni.
+                     </p>
+                  <p class="trslText" id="tr_Par_006_pr6">
+                     Sarebbe un altro problema se si supponesse che altre forze abbiano agito in altri
+                     
+                     momenti nel linguaggio, forze di cui non possiamo farci alcuna idea a partire da 
+                     quel che accade oggi quando parliamo, ma tale supposizione è tanto arbitraria quanto
+                     
+                     inverosimile;
+                     </p>
+                  <p class="trslText" id="tr_Par_006_pr7">
+                     essa implica l'attribuire all'umanità primitiva facoltà o sensi essenzialmente differenti
+                     
+                     da quelli che noi possediamo; 
+                     </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section id="pg6">
+         <h3> Pagina 6 </h3>
+         <div class="page">
+            <div class="imgContainer"><img class="document&#xA;                 Recto " id="P2_06" src="src/P2_06.png" alt="P2_06" width="400px" usemap="P2_06"><map name="P2_06"><area shape="rect" coords="332,46,614,490" href="#Line6_0"><area shape="rect" coords="364,47,612,63" href="#Line6_1"><area shape="rect" coords="364,66,609,79" href="#Line6_2"><area shape="rect" coords="362,82,610,108" href="#Line6_3"><area shape="rect" coords="363,112,597,123" href="#Line6_4"><area shape="rect" coords="365,128,609,141" href="#Line6_5"><area shape="rect" coords="362,140,616,152" href="#Line6_6"><area shape="rect" coords=",,," href="#Line6_7"><area shape="rect" coords="371,157,609,165" href="#Line6_8"><area shape="rect" coords="371,166,606,183" href="#Line6_9"><area shape="rect" coords="368,186,609,205" href="#Line6_10"><area shape="rect" coords="369,204,613,218" href="#Line6_11"><area shape="rect" coords="365,218,610,233" href="#Line6_12"><area shape="rect" coords="368,233,611,247" href="#Line6_13"><area shape="rect" coords="369,251,611,263" href="#Line6_14"><area shape="rect" coords="368,263,610,274" href="#Line6_15"><area shape="rect" coords="370,274,614,296" href="#Line6_16"><area shape="rect" coords="371,296,606,309" href="#Line6_17"><area shape="rect" coords="371,310,606,324" href="#Line6_18"><area shape="rect" coords="370,323,609,337" href="#Line6_19"><area shape="rect" coords="371,338,610,349" href="#Line6_20"><area shape="rect" coords="374,352,604,363" href="#Line6_21"><area shape="rect" coords="375,366,604,375" href="#Line6_22"><area shape="rect" coords="378,377,613,394" href="#Line6_23"><area shape="rect" coords="373,396,611,406" href="#Line6_24"><area shape="rect" coords="378,408,606,422" href="#Line6_25"></map><img class="document&#xA;                 Verso " id="P2_061" src="src/P2_061.png" alt="P2_061" width="400px" usemap="P2_061"><map name="P2_061"><area shape="rect" coords="340,391,593,439" href="#Line61_0"></map><div class="chooseSide"><label for="vers6"><input type="checkbox" id="vers6" name="cSide_6" class="chSideBtn versOn"> Retro Pagina
+                     </label></div>
+            </div>
+            <div class="textContainer">
+               <div id="#P2_06" class="item">
+                  <h2>Foglio 6</h2><span class="pr_p1">
+                     <br><span class="lineNumber" id="line_1">1</span>
+                     Dès à présent, un 
+                     <div class="key"><span class="park" id="#ling">linguiste</span><div class="tooltip keyDesc" id="#ling">
+                           Chi si dedica allo studio delle lingue (o anche soltanto, 
+                           o in modo specifico, della propria lingua), soprattutto da un 
+                           punto di vista teorico, sistematico e storico
+                           </div>
+                     </div> qui viendrait
+                     
+                     <br><span class="lineNumber" id="line_2">2</span>
+                     en 
+                     <div class="key"><span class="placeName" id="">France</span><div class="tooltip placeDesc" id=""><span class="settlement">
+                              comune
+                              <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+                     </div> 
+                     <abbr>d</abbr><span class="expan">dans</span>
+                     le but de noter <ins>méthodiquement</ins> par l'
+                     <div class="key"><span class="park" id="#ec">écriture</span><div class="tooltip keyDesc" id="#ec">
+                           La scrittura è la fissazione di uno o più segni 
+                           linguistici in una forma esterna più o meno durevole.
+                           </div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line_3">3</span>
+                     le 
+                     <div class="key"><span class="park" id="#Frparl">français parlé</span><div class="tooltip keyDesc" id="#Frparl">
+                           l’uso <abbr>p.</abbr><span class="expan">parlato</span> della lingua, con cui si indica l’aspetto della lingua 
+                           (con riguardo alla morfologia, alla sintassi, al lessico) come si presenta 
+                           nell’uso vivo e quotidiano, in <abbr>contrapp.</abbr><span class="expan">contrapposizione</span> alla
+                           lingua scritta e letteraria.
+                           </div>
+                     </div> 
+                     <ins>le français reél et authentique, 
+                        <del><abbr>c.à.d.</abbr></del> </ins> 
+                     com<ins>m</ins>e on 
+                     recueille <ins>méthodiquement</ins> 
+                     la <ins>le</ins> 
+                     
+                     <div class="key"><span class="park" id="#lang">langue</span><div class="tooltip keyDesc" id="#lang">
+                           In linguistica, la langue (in francese, letteralmente, "lingua") 
+                           è il sistema di segni che formano il codice di un idioma. I fonemi, 
+                           le parole e gli altri elementi che lo compongono hanno valore soltanto 
+                           nelle relazioni di equivalenza e di opposizione che li collegano gli uni 
+                           agli altri. Quale convenzione sociale, la langue si contrappone così alla 
+                           parole, cioè l'atto linguistico individuale e irripetibile del parlante.
+                           </div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line_4">4</span> 
+                     de quelque peuple malais ou 
+                     <div class="key"><span class="placeName" id="">africain</span><div class="tooltip placeDesc" id=""><span class="settlement">
+                              comune
+                              <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+                     </div>, ou
+                     
+                     <br><span class="lineNumber" id="line_5">5</span>
+                     com<ins>m</ins>e 
+                     recueille les 
+                     <div class="key"><span class="park" id="#pat">patois</span><div class="tooltip keyDesc" id="#pat">
+                           In Francia, idioma locale, privo di tradizione letteraria, usato da una popolazione
+                           
+                           generalmente poco numerosa, spesso rurale, la cui cultura e livello di 
+                           civilizzazione sono inferiori a quelli della popolazione circostante 
+                           che usa la lingua comune.
+                           </div>
+                     </div> français - ce 
+                     
+                     <div class="key"><span class="park" id="#ling">linguiste</span><div class="tooltip keyDesc" id="#ling">
+                           Chi si dedica allo studio delle lingue (o anche soltanto, 
+                           o in modo specifico, della propria lingua), soprattutto da un 
+                           punto di vista teorico, sistematico e storico
+                           </div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line_6">6</span>
+                     écrirait sans hésiter <ins>qu'en l'an 1891</ins> 
+                     k-a-tkat, 
+                     <ins> com<ins>m</ins>e 
+                        la 
+                        <div class="key"><span class="park" id="#form">forme</span><div class="tooltip keyDesc" id="#form">
+                              In genere, misura, forma, esemplare, che si assume come modello a cui attenersi, 
+                              o come elemento fondamentale secondo il quale determinare o proporzionare le misure
+                              
+                              di un insieme
+                              </div>
+                        </div> exacte ou la 
+                        <div class="key"><span class="park" id="#form">forme</span><div class="tooltip keyDesc" id="#form">
+                              In genere, misura, forma, esemplare, che si assume come modello a cui attenersi, 
+                              o come elemento fondamentale secondo il quale determinare o proporzionare le misure
+                              
+                              di un insieme
+                              </div>
+                        </div> principale</ins> pour
+                     
+                     <br><span class="lineNumber" id="line_7">7</span>
+                     le 
+                     <sic>4°</sic><span class="corr">quatrième</span> 
+                     <div class="key"><span class="park" id="#nom">nom</span><div class="tooltip keyDesc" id="#nom">
+                           Il nome (o sostantivo) è una parte variabile del discorso con cui si 
+                           designa una persona, un animale, un oggetto, un’idea, un sentimento, un’azione 
+                           o un fatto.
+                           </div>
+                     </div> de 
+                     
+                     <div class="key"><span class="park" id="#nomb">nombre</span><div class="tooltip keyDesc" id="#nomb">
+                           In linguistica, il numero è una categoria grammaticale. 
+                           Serve a esprimere formalmente la quantità dei referenti.
+                           </div>
+                     </div>, 
+                     <sic>l e t</sic><span class="corr">l-e-t</span>, let pour le
+                     
+                     <br><span class="lineNumber" id="line_8">8</span>
+                     
+                     <div class="key"><span class="park" id="#mot">mot</span><div class="tooltip keyDesc" id="#mot">
+                           La parola è l'espressione orale o scritta di un'informazione o di un concetto, 
+                           ovvero la rappresentazione di un'idea svolta a mezzo e nel presupposto di un 
+                           riferimento convenzionale. In morfologia la parola è definita come un elemento 
+                           linguistico costituito da un morfema libero o da una sequenza di morfemi legati.
+                           </div>
+                     </div> 
+                     <div class="key"><span class="park" id="#sign">signifiant</span><div class="tooltip keyDesc" id="#sign">
+                           facoltà propria degli organismi animali di avvertire l’azione 
+                           prodotta da stimoli esterni o interni.
+                           </div>
+                     </div> 
+                     missive
+                     <del>etc.</del>, ou
+                     signe de l'alphabet
+                     </span><span class="pr_p2">
+                     <br><span class="lineNumber" id="line_9">9</span>
+                     Car à 
+                     <div class="key"><span class="placeName" id="">Genève</span><div class="tooltip placeDesc" id=""><span class="settlement">
+                              comune
+                              <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+                     </div> com<ins>m</ins>e a 
+                     <del>Paris</del><ins>
+                        <div class="key"><span class="placeName" id="">Bordeaux</span><div class="tooltip placeDesc" id=""><span class="settlement">
+                                 comune
+                                 <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+                        </div>ou à 
+                        
+                        <div class="key"><span class="placeName" id="">Paris</span><div class="tooltip placeDesc" id=""><span class="settlement">
+                                 comune
+                                 <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+                        </div> et a 
+                        
+                        <div class="key"><span class="placeName" id="">Lille</span><div class="tooltip placeDesc" id=""><span class="settlement">
+                                 comune
+                                 <strong>Ginevra</strong></span><br><span class="country"><strong>Svizzera</strong></span></div>
+                        </div>
+                        ,</ins> dans la rue
+                     
+                     <br><span class="lineNumber" id="line0_10">10</span>
+                     comme dans le salons, 
+                     personne ne dit <span class="gap">(Gap)</span> 
+                     
+                     <br><span class="lineNumber" id="line1_11">11</span>
+                     <del>q</del> autrement que 
+                     kat places, 
+                     kat jours, 
+                     
+                     <br><span class="lineNumber" id="line2_12">12</span>
+                     ou la let, que j'ai reçue
+                     
+                     <sic> </sic><span class="corr">,</span>etc.
+                     (Dans certain
+                     <sic> </sic><span class="corr">e</span>s
+                     
+                     <br><span class="lineNumber" id="line3_13">13</span>
+                     
+                     <div class="key"><span class="park" id="#cond">condition</span><div class="tooltip keyDesc" id="#cond">
+                           In generale, fatto il cui intervento è necessario perché un altro fatto 
+                           possa verificarsi.
+                           </div>
+                     </div> 
+                     <sic> </sic><span class="corr">s</span>, il y a 
+                     
+                     <sic>1 2°</sic><span class="corr">une seconde</span> 
+                     
+                     <div class="key"><span class="park" id="#form">forme</span><div class="tooltip keyDesc" id="#form">
+                           In genere, misura, forma, esemplare, che si assume come modello a cui attenersi, 
+                           o come elemento fondamentale secondo il quale determinare o proporzionare le misure
+                           
+                           di un insieme
+                           </div>
+                     </div> 
+                     <sic> </sic><span class="corr">e</span> 
+                      letr : savoir 
+                     <abbr>dvt </abbr><span class="expan">devant</span>
+                     
+                     <br><span class="lineNumber" id="line4_14">14</span>
+                     les 
+                     <div class="key"><span class="park" id="#voy">voyelles</span><div class="tooltip keyDesc" id="#voy">
+                           a vocale è un fono che ha come realizzazione prevalente un vocoide. 
+                           La parola vocale deriva dal latino vocalis, che significa 'parlante', 
+                           'che parla', 'dotato di voce', 'sonoro'. Dal punto di vista articolatorio, 
+                           una vocale è un suono prodotto mediante la vibrazione delle corde vocali, 
+                           emesso senza frapporre ulteriori ostacoli al flusso dell'aria così fatto 
+                           risuonare.
+                           </div>
+                     </div> letr
+                     ouverte ; mais même 
+                     <abbr>devt </abbr><span class="expan">devant</span>
+                     
+                     <br><span class="lineNumber" id="line5_15">15</span>
+                     
+                     <div class="key"><span class="park" id="#voy">voyelle</span><div class="tooltip keyDesc" id="#voy">
+                           a vocale è un fono che ha come realizzazione prevalente un vocoide. 
+                           La parola vocale deriva dal latino vocalis, che significa 'parlante', 
+                           'che parla', 'dotato di voce', 'sonoro'. Dal punto di vista articolatorio, 
+                           una vocale è un suono prodotto mediante la vibrazione delle corde vocali, 
+                           emesso senza frapporre ulteriori ostacoli al flusso dell'aria così fatto 
+                           risuonare.
+                           </div>
+                     </div> on com<ins>m</ins>ence à dire 
+                     let ouverte , 
+                     <ins> mettre cette let à la poste </ins>, et
+                     
+                     <br><span class="lineNumber" id="line6_16">16</span>
+                     très probablement letr sera ainsi
+                     <ins>
+                        <sic>1</sic><span class="corr">une</span> 
+                        <div class="key"><span class="park" id="#form">forme</span><div class="tooltip keyDesc" id="#form">
+                              In genere, misura, forma, esemplare, che si assume come modello a cui attenersi, 
+                              o come elemento fondamentale secondo il quale determinare o proporzionare le misure
+                              
+                              di un insieme
+                              </div>
+                        </div> 
+                        </ins> totalement incon<ins>n</ins>ue
+                     
+                     <br><span class="lineNumber" id="line7_17">17</span>
+                     dans 
+                     <sic>50</sic><span class="corr">cinquante</span> ou 
+                     
+                     <sic>75</sic><span class="corr">soixante-quinze</span> ans.
+                     </span><span class="pr_p3">
+                     Voilà un 
+                     <div class="key"><span class="park" id="#ex">exemple</span><div class="tooltip keyDesc" id="#ex">
+                           Fatto, atto, comportamento o cosa in genere che si propone come modello
+                           da imitare o da fuggire, o che comunque si additi all’ammirazione o alla 
+                           riprovazione.
+                           </div>
+                     </div> entre
+                     <br><span class="lineNumber" id="line8_18">18</span>
+                     beacoup <del>je aqui se passe, en dèpit de l'enva
+                        
+                        <br><span class="lineNumber" id="line9_19">19</span>
+                        hissement croissant d'une forme de langue</del>
+                     
+                     <br><span class="lineNumber" id="line0_20">20</span>
+                     qui prove que des 
+                     <div class="key"><span class="park" id="#phen">phénomènes</span><div class="tooltip keyDesc" id="#phen">
+                           è riferito a tutto quello che si presenta come oggettivamente costituito 
+                           all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile. 
+                           Genericamente però il lemma può indicare anche un'immagine a cui non corrisponde 
+                           una realtà sensibile come accade per i fenomeni interiori, le emozioni, i 
+                           sentimenti, gli stati d'animo che si esprimono nei gesti, nel linguaggio 
+                           delle parole e delle arti.
+                           </div>
+                     </div> de 
+                     
+                     <div class="key"><span class="park" id="#trasf">trasform 
+                           
+                           <br><span class="lineNumber" id="line1_21">21</span>
+                           ation</span><div class="tooltip keyDesc" id="#trasf">
+                           L’atto, l’azione o l’operazione di trasformare, il fatto 
+                           di trasformarsi o di venire trasformato, che comporta un cambiamento, 
+                           per lo più profondo e definitivo, di forma, aspetto, strutture o di altre 
+                           qualità e caratteristiche.
+                           </div>
+                     </div> semblables à ceux que 
+                     <sic>ns</sic><span class="corr">nous</span>
+                     retrouvons
+                     
+                     <br><span class="lineNumber" id="line2_22">22</span>
+                     
+                     <sic>D</sic><span class="corr">dans </span><sic>ts</sic><span class="corr">tous </span>les 
+                     <div class="key"><span class="park" id="#idio">idiomes</span><div class="tooltip keyDesc" id="#idio">
+                           Lingua propria e particolare di una nazione.  È termine per lo più 
+                           <abbr>letter.</abbr><span class="expan">letterale</span>, soprattutto quando è usato 
+                           per indicare un dialetto o una parlata regionale o un modo particolare di parlare
+                           </div>
+                     </div> laissés à eux-mêmes n'ont
+                     
+                     <br><span class="lineNumber" id="line3_23">23</span>
+                     pas cessé en réalité de se produire, mêmes 
+                     
+                     <br><span class="lineNumber" id="line4_24">24</span>
+                     
+                     <sic>D</sic><span class="corr">dans </span><sic>1</sic><span class="corr">une</span> 
+                     <div class="key"><span class="park" id="#lang">langue</span><div class="tooltip keyDesc" id="#lang">
+                           In linguistica, la langue (in francese, letteralmente, "lingua") 
+                           è il sistema di segni che formano il codice di un idioma. I fonemi, 
+                           le parole e gli altri elementi che lo compongono hanno valore soltanto 
+                           nelle relazioni di equivalenza e di opposizione che li collegano gli uni 
+                           agli altri. Quale convenzione sociale, la langue si contrappone così alla 
+                           parole, cioè l'atto linguistico individuale e irripetibile del parlante.
+                           </div>
+                     </div> où 
+                     <abbr>ttes</abbr><span class="expan">toutes</span> les conditions sont anor
+                     
+                     <br><span class="lineNumber" id="line5_25">25</span>
+                     males par la 
+                     <div class="key"><span class="park" id="#ttp"> <abbr>tte</abbr><span class="expan">toute</span>-puissance</span><div class="tooltip keyDesc" id="#ttp">
+                           L'onnipotenza è il potere di fare tutto, senza alcun limite. 
+                           Nelle religioni monoteistiche questo attributo è proprio di Dio.
+                           </div>
+                     </div>
+                     apparente de
+                     
+                     <br><span class="lineNumber" id="line6_26">26</span>
+                     l'
+                     <div class="key"><span class="park" id="#ec">écriture</span><div class="tooltip keyDesc" id="#ec">
+                           La scrittura è la fissazione di uno o più segni 
+                           linguistici in una forma esterna più o meno durevole.
+                           </div>
+                     </div>.
+                     </span></div>
+               <div id="#P2_061" class="item">
+                  <h2>Foglio 61</h2><span class="pr_p">
+                     <del> Si un linguiste étranger venait entramprendre de récrire le 
+                        français <del> parle </del> authentique et reél c'evra <span class="gap">(Gap)</span>
+                        parlé
+                        </del>
+                     </span></div>
+            </div>
+         </div>
+      </section>
+      <hr class="stile"><br><br><br><section id="pg7">
+         <h3> Pagina 7 </h3>
+         <div class="page">
+            <div class="imgContainer"><img class="document&#xA;                 Recto " id="P2_07" src="src/P2_07.png" alt="P2_07" width="400px" usemap="P2_07"><map name="P2_07"><area shape="rect" coords="349,32,615,441" href="#Line7_0"><area shape="rect" coords="365,39,606,50" href="#Line7_1"><area shape="rect" coords="362,53,606,66" href="#Line7_2"><area shape="rect" coords="364,70,611,79" href="#Line7_3"><area shape="rect" coords="366,84,609,93" href="#Line7_4"><area shape="rect" coords="364,95,609,104" href="#Line7_5"><area shape="rect" coords="358,108,606,120" href="#Line7_6"><area shape="rect" coords="365,122,609,135" href="#Line7_7"><area shape="rect" coords="366,137,448,152" href="#Line7_8"><area shape="rect" coords="385,154,604,161" href="#Line7_9"><area shape="rect" coords="372,167,604,175" href="#Line7_10"><area shape="rect" coords="377,178,613,189" href="#Line7_11"><area shape="rect" coords="372,189,610,203" href="#Line7_12"><area shape="rect" coords="363,204,605,213" href="#Line7_13"><area shape="rect" coords="353,219,608,227" href="#Line7_14"><area shape="rect" coords="380,232,607,240" href="#Line7_15"><area shape="rect" coords="381,246,606,260" href="#Line7_16"><area shape="rect" coords="379,262,605,270" href="#Line7_17"><area shape="rect" coords="385,274,606,285" href="#Line7_18"><area shape="rect" coords="383,288,609,299" href="#Line7_19"><area shape="rect" coords="383,301,607,320" href="#Line7_20"><area shape="rect" coords="383,321,607,328" href="#Line7_21"><area shape="rect" coords="389,331,606,343" href="#Line7_22"><area shape="rect" coords="386,342,603,358" href="#Line7_23"><area shape="rect" coords="387,357,595,370" href="#Line7_24"><area shape="rect" coords="386,373,597,385" href="#Line7_25"><area shape="rect" coords="386,386,610,407" href="#Line7_26"><area shape="rect" coords="357,405,600,417" href="#Line7_27"><area shape="rect" coords="394,418,599,430" href="#Line7_28"><area shape="rect" coords="484,431,586,441" href="#Line7_29"></map><img class="document&#xA;                 Verso " id="P2_071" src="src/P2_071.png" alt="P2_071" width="400px" usemap="P2_071"><map name="P2_071"></map><div class="chooseSide"><label for="vers7"><input type="checkbox" id="vers7" name="cSide_7" class="chSideBtn versOn">Retro Pagina
+                     </label></div>
+            </div>
+            <div class="textContainer">
+               <div id="#P2_07" class="item">
+                  <h2>Foglio 7</h2><span class="pr_p1">
+                     <br><span class="lineNumber" id="line_1">1</span> 
+                     Mais il est temps de nous demander <span class="gap">(Gap)</span>
+                     
+                     <br><span class="lineNumber" id="line_2">2</span>  
+                     autrement qu'en prenant quelque 
+                     <div class="key"><span class="park" id="#ex">exemple</span><div class="tooltip keyDesc" id="#ex">
+                           Fatto, atto, comportamento o cosa in genere che si propone come modello
+                           da imitare o da fuggire, o che comunque si additi all’ammirazione o alla 
+                           riprovazione.
+                           </div>
+                     </div> isolé, en 
+                     
+                     <br><span class="lineNumber" id="line_3">3</span> 
+                     quoi consistent les 
+                     <div class="key"><span class="park" id="#chang">changements</span><div class="tooltip keyDesc" id="#chang">
+                           atto ed effetto del diventare diverso
+                           </div>
+                     </div> qui se pro
+                     
+                     <br><span class="lineNumber" id="line_4">4</span> 
+                     duisent avec une 
+                     <div class="key"><span class="park" id="#neces">nécessité</span><div class="tooltip keyDesc" id="#neces">
+                           L’essere necessario; carattere, qualità, condizione di ciò che è necessario
+                           </div>
+                     </div> si constante en 
+                     <abbr>ttes</abbr><span class="expan">toutes</span>
+                     
+                     <br><span class="lineNumber" id="line_5">5</span>
+                     <abbr>ls</abbr><span class="expan">les</span> 
+                     <div class="key"><span class="park" id="#lang">langues</span><div class="tooltip keyDesc" id="#lang">
+                           In linguistica, la langue (in francese, letteralmente, "lingua") 
+                           è il sistema di segni che formano il codice di un idioma. I fonemi, 
+                           le parole e gli altri elementi che lo compongono hanno valore soltanto 
+                           nelle relazioni di equivalenza e di opposizione che li collegano gli uni 
+                           agli altri. Quale convenzione sociale, la langue si contrappone così alla 
+                           parole, cioè l'atto linguistico individuale e irripetibile del parlante.
+                           </div>
+                     </div>, 
+                     <del>qu</del>de quelle 
+                     <div class="key"><span class="park" id="#nat">nature</span><div class="tooltip keyDesc" id="#nat">
+                           Con riferimento a uomini, animali o cose, condizione o modo di essere originario,
+                           
+                           primitivo, intrinseco e che costituisce carattere fondamentale e stabile di una 
+                           collettività o di un determinato tipo.
+                           </div>
+                     </div> sont ces 
+                     
+                     <div class="key"><span class="park" id=""> <del>modifications</del></span><div class="tooltip keyDesc" id=""></div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line_6">6</span>
+                     <ins>remaniements,</ins> perpétuelles, 
+                     <del>où</del> à quelles 
+                     <div class="key"><span class="park" id="#caus">causes</span><div class="tooltip keyDesc" id="#caus">
+                           Fatto o avvenimento che provoca un determinato effetto, che è origine o occasione
+                           
+                           di un altro fatto
+                           </div>
+                     </div> elles se rattachent,
+                     
+                     <br><span class="lineNumber" id="line_7">7</span>
+                     et si elles ont le mêmes 
+                     <div class="key"><span class="park" id="#crct">caractère</span><div class="tooltip keyDesc" id="#crct">
+                           Segno tracciato, impresso o inciso, a cui si dia un significato
+                           </div>
+                     </div> dans <span class="gap">(Gap)</span>
+                     
+                     <br><span class="lineNumber" id="line_8">8</span>
+                     toutes les 
+                     <div class="key"><span class="park" id="#lang">langues</span><div class="tooltip keyDesc" id="#lang">
+                           In linguistica, la langue (in francese, letteralmente, "lingua") 
+                           è il sistema di segni che formano il codice di un idioma. I fonemi, 
+                           le parole e gli altri elementi che lo compongono hanno valore soltanto 
+                           nelle relazioni di equivalenza e di opposizione che li collegano gli uni 
+                           agli altri. Quale convenzione sociale, la langue si contrappone così alla 
+                           parole, cioè l'atto linguistico individuale e irripetibile del parlante.
+                           </div>
+                     </div>
+                     
+                     <sic>?</sic><span class="corr">.</span>
+                     
+                     <br><span class="lineNumber" id="line_9">9</span>
+                     <del>Les changements, nous crayons 
+                        dès à present</del>
+                     </span><span class="pr_p2">
+                     <br><span class="lineNumber" id="line0_10">10</span>
+                     <del><span class="gap">(Gap)</span>,</del> L'
+                     <div class="key"><span class="park" id="#edl">etude du lungage</span><div class="tooltip keyDesc" id="#edl">
+                           La linguistica è lo studio scientifico del linguaggio verbale umano e delle sue strutture.
+                           Essa include lo studio della fonetica, della grammatica, del lessico, della morfologia,
+                           
+                           della sintassi e della testualità. È una disciplina scientifica, in quanto si basa
+                           su 
+                           approcci empirici e oggettivi
+                           </div>
+                     </div> croit dès à
+                     
+                     <br><span class="lineNumber" id="line1_11">11</span>
+                     présent pouvoir affirmer qu'en effet 
+                     <del>les phénomènes</del>
+                     
+                     <br><span class="lineNumber" id="line2_12">12</span>
+                     <del>dans leur</del><ins>l'</ins><div class="key"><span class="park" id="#ess">essence</span><div class="tooltip keyDesc" id="#ess">
+                           usato come sinonimo di sostanza, in contrapp. a ciò che è accidentale, accessorio,
+                           contingente
+                           </div>
+                     </div> de ces
+                     
+                     <div class="key"><span class="park" id="#phen">phénomènes</span><div class="tooltip keyDesc" id="#phen">
+                           è riferito a tutto quello che si presenta come oggettivamente costituito 
+                           all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile. 
+                           Genericamente però il lemma può indicare anche un'immagine a cui non corrisponde 
+                           una realtà sensibile come accade per i fenomeni interiori, le emozioni, i 
+                           sentimenti, gli stati d'animo che si esprimono nei gesti, nel linguaggio 
+                           delle parole e delle arti.
+                           </div>
+                     </div> 
+                     <sic>1°</sic><span class="corr">premièrement,</span> se retrouve
+                     
+                     <br><span class="lineNumber" id="line3_13">13</span>
+                     <del>1°</del> partout la même 
+                     <del>et</del>
+                     <del> en 2°<span class="gap">(Gap)</span>qu'ils sont</del>
+                     
+                     <br><span class="lineNumber" id="line4_14">14</span> 
+                     <del><span class="gap">(Gap)</span>de 2 <span class="gap">(Gap)</span>
+                        <del><ins>espèces</ins></del> différents</del>
+                     
+                     <sic>2°</sic><span class="corr">deuxièment,</span> qu'elle a toujours
+                     
+                     <br><span class="lineNumber" id="line5_15">15</span>
+                     été la même de sorte <del>qu'il est</del> que c'est une 
+                     
+                     <br><span class="lineNumber" id="line6_16">16</span>
+                     idée très fausse que de croire que le 
+                     <div class="key"><span class="park" id="#prob">problème</span><div class="tooltip keyDesc" id="#prob">
+                           Ogni quesito di cui si richieda ad altri o a sé stessi la soluzione, 
+                           partendo di solito da elementi noti
+                           </div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line7_17">17</span>
+                     de l'
+                     <div class="key"><span class="park" id="#odl">origine du langage</span><div class="tooltip keyDesc" id="#odl">
+                           L'origine del linguaggio umano è un argomento che ha attratto una considerevole attenzione
+                           
+                           nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui
+                           
+                           che distingue l'Homo sapiens da altre specie. A differenza della scrittura, l'oralità
+                           
+                           non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò,
+                           i 
+                           linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                           </div>
+                     </div> soit un autre 
+                     <div class="key"><span class="park" id="#prob">problème</span><div class="tooltip keyDesc" id="#prob">
+                           Ogni quesito di cui si richieda ad altri o a sé stessi la soluzione, 
+                           partendo di solito da elementi noti
+                           </div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line8_18">18</span>
+                     que celui de ses 
+                     <div class="key"><span class="park" id="#trasf">transformations</span><div class="tooltip keyDesc" id="#trasf">
+                           L’atto, l’azione o l’operazione di trasformare, il fatto 
+                           di trasformarsi o di venire trasformato, che comporta un cambiamento, 
+                           per lo più profondo e definitivo, di forma, aspetto, strutture o di altre 
+                           qualità e caratteristiche.
+                           </div>
+                     </div>.
+                     </span><span class="pr_p3">
+                     Ce serait 
+                     <br><span class="lineNumber" id="line9_19">19</span>un autre 
+                     <div class="key"><span class="park" id="#prob">problème</span><div class="tooltip keyDesc" id="#prob">
+                           Ogni quesito di cui si richieda ad altri o a sé stessi la soluzione, 
+                           partendo di solito da elementi noti
+                           </div>
+                     </div> 
+                     
+                     <sic>,</sic><span class="corr"> </span>si l'on supposait que
+                     
+                     <br><span class="lineNumber" id="line0_20">20</span>
+                     d'autres 
+                     <div class="key"><span class="park" id="#caus">forces</span><div class="tooltip keyDesc" id="#caus">
+                           Fatto o avvenimento che provoca un determinato effetto, che è origine o occasione
+                           
+                           di un altro fatto
+                           </div>
+                     </div> ont agi <del>au sein de l'humanite
+                        
+                        <br><span class="lineNumber" id="line1_21">21</span>
+                        primitive</del> autrefois <abbr>d</abbr><span class="expan">dans</span>
+                     le 
+                     <div class="key"><span class="park" id="#lngs">langage</span><div class="tooltip keyDesc" id="#lngs">
+                           è una forma di comunicazione tra due o più individui attraverso un complesso determinato
+                           di suoni,
+                           gesti, simboli e movimenti dotati di significato, che definiscono una lingua comune
+                           ad uno 
+                           specifico ambiente di interazione.
+                           </div>
+                     </div>, dont nous
+                     
+                     <br><span class="lineNumber" id="line2_22">22</span>
+                     ne 
+                     <sic>pouvons nous</sic><span class="corr">pouvons-nous</span>
+                     faire aucune idée d'après
+                     
+                     <br><span class="lineNumber" id="line3_23">23</span>
+                     Ce qui se passe aujourd'hui 
+                     <span class="gap">(Gap)</span>quand 
+                     
+                     <br><span class="lineNumber" id="line4_24">24</span>
+                     nous 
+                     <div class="key"><span class="park" id="#Frparl">parlons</span><div class="tooltip keyDesc" id="#Frparl">
+                           l’uso <abbr>p.</abbr><span class="expan">parlato</span> della lingua, con cui si indica l’aspetto della lingua 
+                           (con riguardo alla morfologia, alla sintassi, al lessico) come si presenta 
+                           nell’uso vivo e quotidiano, in <abbr>contrapp.</abbr><span class="expan">contrapposizione</span> alla
+                           lingua scritta e letteraria.
+                           </div>
+                     </div>, mais cette 
+                     <div class="key"><span class="park" id="#supp">supposition</span><div class="tooltip keyDesc" id="#supp">
+                           Il fatto di supporre, di fare congetture e ipotesi; 
+                           </div>
+                     </div>
+                     
+                     <br><span class="lineNumber" id="line5_25">25</span>
+                     <del>est une pétition de principe</del>est aussi
+                     
+                     <br><span class="lineNumber" id="line6_26">26</span>
+                     
+                     <div class="key"><span class="park" id="#arb">arbitraire</span><div class="tooltip keyDesc" id="#arb">
+                           Che dipende dalla volontà e dall’arbitrio del singolo senza riferimento a 
+                           legge o norma esteriore
+                           </div>
+                     </div> qu'invraisemblable;
+                     </span><span class="pr_p4">
+                     elle <del> condition</del>
+                     <br><span class="lineNumber" id="line7_27">27</span>
+                     <ins>reviant</ins> à attribuer à l'
+                     <div class="key"><span class="park" id="#hmpr">humanité primitive</span><div class="tooltip keyDesc" id="#hmpr">
+                           Il termine implicava l’idea che tutte le popolazioni e le società umane fossero partite
+                           
+                           da una condizione originaria comune e che alcune di esse fossero rimaste <abbr>p.</abbr>, 
+                           ovvero non progredite in misura significativa rispetto a tale punto di partenza comune.
+                           </div>
+                     </div> des
+                     
+                     <br><span class="lineNumber" id="line8_28">28</span>
+                     
+                     <div class="key"><span class="park" id="#fac">facultés</span><div class="tooltip keyDesc" id="#fac">
+                           Per facoltà la filosofia intende genericamente le potenzialità intellettive 
+                           e psichiche dell'uomo di arrivare a 
+                           capire fatti conoscitivi e provare sentimenti.
+                           </div>
+                     </div> ou des 
+                     <div class="key"><span class="park" id="#sign">sens</span><div class="tooltip keyDesc" id="#sign">
+                           facoltà propria degli organismi animali di avvertire l’azione 
+                           prodotta da stimoli esterni o interni.
+                           </div>
+                     </div> <del>qui</del> 
+                     
+                     <div class="key"><span class="park" id="#essent"><ins>essentiallement</ins></span><div class="tooltip keyDesc" id="#essent">
+                           Che costituisce o contiene l’essenza di una cosa; sostanziale, indispensabile.
+                           </div>
+                     </div>
+                     différents de<del>s</del> 
+                     
+                     <br><span class="lineNumber" id="line9_29">29</span>
+                     ceux que nous possédons.
+                     </span></div>
+            </div>
+         </div>
+      </section>
+      <div class="biblFin">
+         <div class="sin">
+            <h3>Elementi Bibliografici: </h3><br><p> Autore : <br>Emanuele Fadda</p>
+            <p> Titolo:<br>Lingua e mente sociale</p>
+            <p> Sottotitolo:<br>Per una teoria delle istituzioni linguistiche a partire da 
+               Saussure e Mead</p>
+            <p>Pubblicazioni: <br>Acireale<br>Roma</p>
+            <p>Editore:
+               Bonanno Editore</p>
+            <p>Anno di pubblicazione: <br>2006<br></p>
+            <p>Volume: <br>1<br></p>
+         </div>
+         <div class="dest">
+            <h3> Elementi editoriali: </h3><br><p> Edizione Digitale - Febbraio 2022  </p>
+            <p>Tradotto da:Emanuele Fadda</p>
+            <p>Codificato daVeronica Caccamo</p>
+         </div>
+      </div>
+   </body>
+</html>
